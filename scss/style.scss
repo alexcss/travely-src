@@ -272,6 +272,7 @@ body{
 
 //Hot Offers
 .ba-best-slider{
+	position: relative;
 	&__arrows{
 		position: absolute;
 		z-index: 2;
@@ -323,7 +324,7 @@ body{
 .ba-offer{
 	padding: 100px 0;
 	background: no-repeat 50% / cover;
-
+	
 	@media screen and (min-width:$br-large){
 		padding: 200px 0 220px;
 	}
